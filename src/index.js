@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import RoutesApp from './routes';
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className='flex flex-row'>
     <RoutesApp />
+    </div>
   </React.StrictMode>
 );
 
