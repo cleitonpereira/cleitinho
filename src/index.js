@@ -6,7 +6,7 @@ import './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='flex flex-row'>
+    <div className='lg:flex flex-row md:flex sm:grid grid-cols-1'>
     <RoutesApp />
     </div>
   </React.StrictMode>

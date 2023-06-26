@@ -3,9 +3,9 @@
 import { SocialIcon } from "react-social-icons";
 function Header() {
   return (
-    <aside className="grid grid-cols-1 bg-red-500 w-128 h-screen text-white overflow-auto">
+    <aside className="grid grid-cols-1 bg-red-500 md:w-[32rem] lg:w-[32rem] h-screen text-white overflow-auto sm:w-screen">
       <div className="flex flex-col mt-8 -pb-8 items-center">
-        <div className="bg-img-profile w-48 h-48 mb-6 bg-cover rounded-full"></div>
+        <div className="bg-img-profile w-48 h-48 mb-6 bg-cover border-[6px] rounded-full"></div>
         <span className="text-2xl font-semibold">Cleiton Pereira</span>
         <span className="text-lg">📨 cleiton_pda@hotmail.com</span>
       </div>
